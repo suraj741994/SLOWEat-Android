@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     tools:context=".MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/herobg">
 
     <EditText
         android:id="@+id/username"
