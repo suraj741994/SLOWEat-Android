@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/herobanner">
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Best Restaurant"
+            android:textSize="24sp"
+
+            android:textColor="#0000FF"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/heroText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/orderNowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Now"
+            android:layout_marginTop="16dp"
+            android:textColor="#ffffff"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/aboutUSButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About US"
+            android:layout_marginTop="16dp"
+            android:textColor="#ffffff"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/ContactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:layout_marginTop="16dp"
+            android:textColor="#ffffff"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold"
+            tools:ignore="ObsoleteLayoutParam" />
+
+    </LinearLayout>
+</RelativeLayout>

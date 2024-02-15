@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/herobg"
+    android:gravity="center">
+
+    <!-- Address -->
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1717 Harrison St, San Francisco, CA 94103, United States"
+        android:textSize="16sp"
+        android:layout_marginBottom="50dp"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:autoLink="email"
+        android:minHeight="48dp"
+        android:text="quickeat@mail.net"
+        android:textSize="25sp"
+        tools:ignore="ExtraText" />
+
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:minHeight="48dp"
+        android:text="+1 234 456 78 90"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/orderNowButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

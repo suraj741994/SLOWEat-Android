@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/herobg">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Item 1 -->
+    <ImageView
+        android:id="@+id/itemImageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/spaghettibolognese"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/itemNameTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spaghetti Bolognese"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/itemImageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/itemPriceTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $10.99"
+        android:textSize="16sp"
+        android:layout_below="@id/itemNameTextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <!-- Add to Cart Button for Item 1 -->
+    <Button
+        android:id="@+id/addToCartButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_below="@id/itemPriceTextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Item 2 -->
+    <ImageView
+        android:id="@+id/itemImageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/margheritapizza"
+        android:layout_below="@id/addToCartButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/itemNameTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Margherita Pizza"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/itemImageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/itemPriceTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $12.99"
+        android:textSize="16sp"
+        android:layout_below="@id/itemNameTextView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <!-- Add to Cart Button for Item 2 -->
+    <Button
+        android:id="@+id/addToCartButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_below="@id/itemPriceTextView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Item 3 (New) -->
+    <ImageView
+        android:id="@+id/itemImageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/tiramisu"
+        android:layout_below="@id/addToCartButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/itemNameTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiramisu"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/itemImageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/itemPriceTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: $14.99"
+        android:textSize="16sp"
+        android:layout_below="@id/itemNameTextView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <!-- Add to Cart Button for Item 3 -->
+    <Button
+        android:id="@+id/addToCartButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_below="@id/itemPriceTextView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/moreTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Go to Cart Button -->
+    <Button
+        android:id="@+id/goCartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Cart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+</RelativeLayout>

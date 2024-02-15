@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/herobg">
+
+    <RelativeLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Inspiration Text View -->
+        <TextView
+            android:id="@+id/inspirationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get inspired with your very first purchase"
+            android:textSize="16sp"
+            android:textColor="#FF0000"
+            android:layout_below="@id/backButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <!-- Chinese Button -->
+        <Button
+            android:id="@+id/chineseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chinese"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/inspirationTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <!-- Indian Button -->
+        <Button
+            android:id="@+id/indianButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indian"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/chineseButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <!-- Italian Button -->
+        <Button
+            android:id="@+id/italianButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italian"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/indianButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <!-- Thai Button -->
+        <Button
+            android:id="@+id/thaiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thai"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/italianButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
